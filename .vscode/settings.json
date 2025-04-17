@@ -54,6 +54,9 @@
         "variant": "cpp",
         "vector": "cpp",
         "algorithm": "cpp",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "ui.h": "c",
+        "list.h": "c",
+        "stdlib.h": "c"
     }
 }
