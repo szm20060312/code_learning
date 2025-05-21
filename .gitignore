@@ -1,0 +1,3 @@
+# 忽略 macOS 系统文件
+.DS_Store
+.DS_Store?
