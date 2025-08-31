@@ -4,7 +4,7 @@ from datetime import datetime
 # ======================
 # 读取考勤数据
 # ======================
-df = pd.read_excel("/Users/szm/code/python/8月考勤机.xls")  # 修改为你的文件路径
+df = pd.read_excel("/Users/szm/code/python/check_attendance/8月考勤机.xls")  # 修改为你的文件路径
 
 # 设置周末（不统计）
 weekends = {"2025-07-26", "2025-07-27", "2025-08-02", "2025-08-03", "2025-08-04", 
