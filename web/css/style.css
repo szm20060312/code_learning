@@ -1,0 +1,20 @@
+/* 添加样式：为超链接“玉衡杯数据库”更改颜色，未访问蓝色，已访问紫色，鼠标悬浮绿色 */
+a.HomDGCat:link {
+    color: blue;
+}
+a.HomDGCat:visited {
+    color: purple;
+}
+a.HomDGCat:hover {
+    color: green;
+}
+
+.baidu{
+    background-color: #999ec4;
+    size : 100px;
+    border-radius: 5px;
+    /* 宽度 */
+    width: 36px;
+    /* 高度 */
+    height: 17px;
+}

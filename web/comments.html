@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Blog Comments - Zheming Song</title>
+    <style type="text/css">
+        body { font-family: Verdana, sans-serif; background-color: #f9f9f9; padding: 40px; }
+        .comment-wrapper { width: 700px; margin: 0 auto; background: #fff; padding: 25px; border: 1px solid #ccc; }
+        .comment-display { border-left: 3px solid #444; padding-left: 15px; margin-bottom: 30px; background: #f0f0f0; }
+        .comment-form { margin-top: 40px; padding-top: 20px; border-top: 2px dashed #ddd; }
+        .form-group { margin-bottom: 15px; }
+        .form-group label { display: block; font-weight: bold; margin-bottom: 5px; }
+        .input-field { width: 95%; padding: 8px; border: 1px solid #ccc; }
+        .rating-area { margin: 15px 0; padding: 10px; border: 1px solid #eee; background: #fffdf0; }
+        .rating-option { display: inline-block; margin-right: 10px; text-align: center; font-size: 0.8em; }
+        .rating-option img { display: block; margin: 0 auto 5px; width: 50px; height: auto; }
+    </style>
+</head>
+<body>
+    <div class="comment-wrapper">
+        <h2>Comments on: Exploring Computer Science</h2>
+        
+        <div class="comment-display">
+            <h4>Classmate: Xiao Ming</h4>
+            <p>Hey Zheming! Great blog post. The explanation of the database system was very helpful for our upcoming quiz!</p>
+        </div>
+
+        <div class="comment-form">
+            <h3>Add your comment</h3>
+            <form action="post" method="get">
+                <div class="form-group">
+                    <label for="comment_title">Title:</label>
+                    <input type="text" id="comment_title" name="comment_title" class="input-field" />
+                </div>
+
+                <div class="form-group">
+                    <label for="comment_body">Your Comment:</label>
+                    <textarea id="comment_body" name="comment_body" rows="6" cols="50" class="input-field"></textarea>
+                </div>
+
+                <div class="rating-area">
+                    <p>
+                        <input type="checkbox" id="rate_check" name="rate_check" />
+                        <label for="rate_check" style="display:inline;">Rate this blog entry.</label>
+                    </p>
+                    
+                    <div class="rating-option">
+                        <img src="img/star.png" alt="0 stars" /><br />
+                        <input type="radio" name="rating" value="0" /> 0
+                    </div>
+                    <div class="rating-option">
+                        <img src="img/star.png" alt="1 star" /><br />
+                        <input type="radio" name="rating" value="1" /> 1
+                    </div>
+                    <div class="rating-option">
+                        <img src="img/star.png" alt="2 stars" /><br />
+                        <input type="radio" name="rating" value="2" /> 2
+                    </div>
+                    <div class="rating-option">
+                        <img src="img/star.png" alt="3 stars" /><br />
+                        <input type="radio" name="rating" value="3" /> 3
+                    </div>
+                    <div class="rating-option">
+                        <img src="img/star.png" alt="4 stars" /><br />
+                        <input type="radio" name="rating" value="4" /> 4
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Submit" />
+                    <input type="reset" value="Reset" />
+                </div>
+            </form>
+        </div>
+
+        <p style="margin-top:30px; font-size:0.9em;">
+            <a href="blog.html">&laquo; Back to Blog</a> | 
+            <a href="http://validator.w3.org/check/referer">Validate XHTML</a>
+        </p>
+    </div>
+</body>
+</html>

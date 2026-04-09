@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Order Information Form</title>
+</head>
+<body>
+    <form method="get" action="">
+        <fieldset>
+            <legend>Shipping information</legend>
+            <table>
+                <tr><td><label for="s_name">Name</label></td><td><input type="text" name="s_name" id="s_name" /></td></tr>
+                <tr><td><label for="s_street">Street</label></td><td><input type="text" name="s_street" id="s_street" /></td></tr>
+                <tr><td><label for="s_city">City</label></td><td><input type="text" name="s_city" id="s_city" /></td></tr>
+                <tr><td><label for="s_state">State</label></td><td><input type="text" name="s_state" id="s_state" size="2" /></td></tr>
+                <tr><td><label for="s_zip">Zip</label></td><td><input type="text" name="s_zip" id="s_zip" size="5" /></td></tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Billing information</legend>
+            <table>
+                <tr><td><label for="b_name">Name</label></td><td><input type="text" name="b_name" id="b_name" /></td></tr>
+                <tr><td><label for="b_street">Street</label></td><td><input type="text" name="b_street" id="b_street" /></td></tr>
+                <tr><td><label for="b_city">City</label></td><td><input type="text" name="b_city" id="b_city" /></td></tr>
+                <tr><td><label for="b_state">State</label></td><td><input type="text" name="b_state" id="b_state" size="2" /></td></tr>
+                <tr><td><label for="b_zip">Zip</label></td><td><input type="text" name="b_zip" id="b_zip" size="5" /></td></tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Credit card information</legend>
+            <table>
+                <tr>
+                    <td><label for="card_type">Card Type</label></td>
+                    <td>
+                        <select name="card_type" id="card_type">
+                            <option value="" selected="selected">Select a Credit Card</option>
+                            <option value="visa">Visa</option>
+                            <option value="mastercard">MasterCard</option>
+                            <option value="amex">American Express</option>
+                            <option value="discover">Discover</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr><td><label for="card_num">Card Number</label></td><td><input type="text" name="card_num" id="card_num" /></td></tr>
+                <tr><td><label for="exp_date">Expiration Date</label></td><td><input type="text" name="exp_date" id="exp_date" /></td></tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact information</legend>
+            <table>
+                <tr><td><label for="email">E-mail</label></td><td><input type="text" name="email" id="email" /></td></tr>
+                <tr><td><label for="phone">Phone</label></td><td><input type="text" name="phone" id="phone" /></td></tr>
+            </table>
+            <div>
+                <input type="checkbox" name="subscribe" id="subscribe" checked="checked" />
+                <label for="subscribe">Please keep me informed about future product offerings.</label>
+            </div>
+        </fieldset>
+
+        <div>
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Clear" />
+        </div>
+    </form>
+    
+    <div>
+        <p>
+            <a href="http://validator.w3.org/check/referer">Validate XHTML 1.0 Strict</a>
+        </p>
+    </div>
+</body>
+</html>
